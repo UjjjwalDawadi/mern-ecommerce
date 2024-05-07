@@ -90,7 +90,7 @@ const Cart = () => {
                     <div className="col-lg-3 mt-5 pb-2 d-none d-lg-block">
                         <div style={{ border: '1px solid lightgrey' }} className="p-2 mt-4">
                             <h2 className='fs-5 text-center'>Sub Total: {cart.reduce((a, b) => { return a + (b.quantity); }, 0)} Item(s)</h2>
-                            <h3 className='fs-5 text-center'>Price: {cart.reduce((a, b) => a + b.price * b.quantity, 0)} Taka</h3>
+                            <h3 className='fs-5 text-center'>Price: Rs. {cart.reduce((a, b) => a + b.price * b.quantity, 0)} </h3>
                         </div>
 
                         <div onClick={() => handleClick()} style={{ border: '1px solid lightgrey' }} className="py-2">
@@ -101,7 +101,7 @@ const Cart = () => {
                     <div style={{ boxShadow: '0 3px 10px 3px #0003' }} className="col-lg-3 mt-5 py-3 d-lg-none fixed-bottom bg-brand">
                         <div style={{ border: '1px solid lightgrey' }} className="p-2">
                             <h2 className='fs-5 text-center'>Sub Total: {cart.reduce((a, b) => { return a + (b.quantity); }, 0)} Item(s)</h2>
-                            <h3 className='fs-5 text-center'>Price: {cart.reduce((a, b) => a + b.price * b.quantity, 0)} Taka</h3>
+                            <h3 className='fs-5 text-center'>Price: Rs. {cart.reduce((a, b) => a + b.price * b.quantity, 0)} </h3>
                         </div>
 
                         <div onClick={() => handleClick()} style={{ border: '1px solid lightgrey' }} className="py-2">

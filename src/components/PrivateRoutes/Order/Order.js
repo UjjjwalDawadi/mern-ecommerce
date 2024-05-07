@@ -74,7 +74,7 @@ const Order = () => {
 
                     <div style={{ border: '1px solid lightgrey' }} className="p-2">
                         <h2 className='fs-5 text-center'>Sub Total: {cart.reduce((a, b) => { return a + (b.quantity); }, 0)} Item(s)</h2>
-                        <h3 className='fs-5 text-center'>Price: {cart.reduce((a, b) => a + b.price * b.quantity, 0)} Taka</h3>
+                        <h3 className='fs-5 text-center'>Price: {cart.reduce((a, b) => a + b.price * b.quantity, 0)} Rs. </h3>
                     </div>
 
                     <div style={{ border: '1px solid lightgrey' }} className="py-2">
@@ -85,7 +85,7 @@ const Order = () => {
                 <div style={{ boxShadow: '0 3px 10px 3px #0003' }} className="col-sm-12 d-lg-none fixed-bottom bg-brand py-3">
                 <div style={{ border: '1px solid lightgrey' }} className="p-2">
                         <h2 className='fs-5 text-center'>Sub Total: {cart.reduce((a, b) => { return a + (b.quantity); }, 0)} Item(s)</h2>
-                        <h3 className='fs-5 text-center'>Price: {cart.reduce((a, b) => a + b.price * b.quantity, 0)} Taka</h3>
+                        <h3 className='fs-5 text-center'>Price: Rs. {cart.reduce((a, b) => a + b.price * b.quantity, 0)} </h3>
                     </div>
 
                     <div style={{ border: '1px solid lightgrey' }} className="py-2">

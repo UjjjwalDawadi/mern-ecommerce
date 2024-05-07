@@ -42,7 +42,7 @@ const Products = () => {
                                         <div className="d-flex justify-content-between align-items-center">
                                             <div className="cart-body col-sm-6">
                                                 <h5 className="cart-title">{product.name}</h5>
-                                                <p className="cart-text">Price: {product.price} Taka</p>
+                                                <p className="cart-text">Price: Rs. {product.price}</p>
                                             </div>
 
                                             <div className="d-flex col-sm-6">

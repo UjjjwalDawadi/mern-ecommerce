@@ -57,7 +57,7 @@ const Product = () => {
                             <hr />
                             <p style={{textAlign: 'justify'}} className='fs-6'>{product.description}</p>
                             <hr />
-                            <small>Price: <span className='fs-5 fw-bold'>{product.price}</span> Taka</small>
+                            <small>Price: <span className='fs-5 fw-bold'>Rs. {product.price}</span> </small>
                         </div>
                     </div>
                 </div>

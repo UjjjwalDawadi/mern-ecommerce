@@ -49,7 +49,7 @@ const TopProducts = () => {
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div className="cart-body col-sm-6">
                                             <h2 className="cart-title">{product.name}</h2>
-                                            <p className="cart-text">Price: {product.price} Taka</p>
+                                            <p className="cart-text">Price: Rs.{product.price} </p>
                                         </div>
 
                                         <div className="d-flex col-sm-6">
